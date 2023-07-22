@@ -1,5 +1,4 @@
-for a in range(0, 99, 1):
-	print("{:02d},".format(a), end=" ")
-else:
-	print("{} {}".format(99, "\n"))
+for a in range(100):
+	end = ", " if a < 99 else "\n"
+	print("{:02d}".format(a), end=end)
 
